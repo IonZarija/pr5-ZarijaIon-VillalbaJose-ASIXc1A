@@ -6,8 +6,19 @@ Programa que generi una llista de 100 nombres aleatoris entre 1 i 50.
 Obtenir la mitja dels nombres que es troben a les posicions parelles i la mitja del nombre de les posicions senars.
 """
 listRandom=[]
+listPar=[]
+listSenar=[]
+totPar=0
+totSen=0
 import random
-for x in range(100):
-    print(random.randint(1,50))
-    listRandom.append()
-
+listRandom=[10,2,20,3,30]
+for x in range(5):
+    #listRandom.append((random.randint(1,50)))
+    if listRandom[x] % 2 == 0:
+        listPar.append(listRandom[x])
+        totPar += listRandom[x]
+    else:
+        listSenar.append(listRandom[x])
+        totSen += listRandom[x]
+print("La mitjana dels nombres parells són :", totPar/len(listPar))
+print("La mitjana dels nombres senars són :", totSen/len(listSenar))
