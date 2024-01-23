@@ -11,10 +11,10 @@ listSenar=[]
 totPar=0
 totSen=0
 import random
-listRandom=[10,2,20,3,30]
+
 for x in range(5):
-    #listRandom.append((random.randint(1,50)))
-    if listRandom[x] % 2 == 0:
+    listRandom.append((random.randint(1,50)))
+    if x % 2 == 0:
         listPar.append(listRandom[x])
         totPar += listRandom[x]
     else:
