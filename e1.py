@@ -17,20 +17,19 @@ minTemp_22 = temp_22[0]
 for n in range(0, len(temp)):
     medTemp = medTemp + temp[n]
     if temp[n] > maxTemp:
-        maxTempt = temp[n]
+        maxTemp = temp[n]
     if temp[n] < minTemp:
         minTemp = temp[n]
 
 for n in range(0, len(temp_22)):
     if temp[n] > maxTemp_22:
-        maxTempt_22 = temp[n]
+        maxTemp_22 = temp[n]
     if temp[n] < minTemp_22:
         minTemp_22 = temp[n]
     medTemp_22 = medTemp_22 + temp[n]
 
 medTemp = medTemp/len(temp)
 medTemp_22 = medTemp_22/len(temp_22)
-print(medTemp_22, minTemp_22, maxTemp_22)
 
-print(f"Any 2022 /n","   Màxima:",maxTempt_22,"/n","   Mínima:")
-
+print(f"Any 2022 \n   Màxima: ",  maxTemp_22,"\n   Mínima:", minTemp_22)
+print(f"Anys 2000-2022 \n   Màxima: ", maxTemp, "\n   Mínima:", minTemp)
