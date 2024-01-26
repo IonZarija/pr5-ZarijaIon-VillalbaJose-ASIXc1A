@@ -32,13 +32,5 @@ medTemp = medTemp/len(temp)
 medTemp_22 = medTemp_22/len(temp_22)
 print(medTemp_22, minTemp_22, maxTemp_22)
 
-print("Any 2022 /n","   Màxima:",,"   Mínima:")
-Any 2022
-    Màxima:
-    Mínima:
-    Mitjana:
+print(f"Any 2022 /n","   Màxima:",maxTempt_22,"/n","   Mínima:")
 
-Període 2000 a 2022
-    Màxima:
-    Mínima:
-    Mitjana:

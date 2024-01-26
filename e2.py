@@ -12,7 +12,7 @@ totPar=0
 totSen=0
 import random
 
-for x in range(5):
+for x in range(100):
     listRandom.append((random.randint(1,50)))
     if x % 2 == 0:
         listPar.append(listRandom[x])
